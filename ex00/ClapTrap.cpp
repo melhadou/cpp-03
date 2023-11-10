@@ -72,5 +72,5 @@ void ClapTrap::beRepaired(unsigned int amount) {
 
 // destructor
 ClapTrap::~ClapTrap() {
-  std::cout << RED << this->name << "Is out of service" << RESET << std::endl;
+  std::cout << RED << this->name << " Is out of service" << RESET << std::endl;
 }
